@@ -11,7 +11,7 @@ public class MainUI extends Application {
     public void start(Stage stage) throws Exception {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("View.fxml"));
         loader.setResources(ResourceBundle.getBundle("message", Locale.ENGLISH)); // Default language
-        stage.setTitle("Fuel Consumption Calculator");
+        stage.setTitle(" Abdullahi's Fuel Consumption Calculator");
         stage.setScene(new Scene(loader.load()));
         stage.show();
     }
